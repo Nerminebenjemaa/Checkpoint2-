@@ -1,0 +1,178 @@
+<div class="main-agileinfo slider ">
+<div class="items-group">
+<div class="item agileits-w3layouts">
+<div class="block text main-agileits">
+<span class="circleLight"></span>
+<div class="login-form loginw3-agile">
+<div class="agile-row">
+<div class="login-agileits-top">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nom</label>
+            <input 
+            #NomInput
+            type="text" 
+            class="form-control"
+            [(ngModel)]="nom" style="color: gray;"
+            
+            >
+        </div>
+            
+        <div class="mb-3">
+            
+            <label for="exampleFormControlInput1" class="form-label">Prénom</label>
+            <input 
+            #PrenomInput
+            type="text" 
+            class="form-control"
+            [(ngModel)]="prenom" style="color: gray;"
+            >
+        </div>
+            
+            <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Job</label>
+            <input 
+            #JobInput
+            type="text" 
+            class="form-control"
+            [(ngModel)]="job" style="color: gray;"
+            >
+        </div>
+            
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Image</label>
+            <input 
+            #ImageInput
+            type="text" 
+            class="form-control" style="color: gray;"
+            >
+        </div>
+            
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Citation favorite</label>
+            <input 
+            #CitationInput
+            type="text" 
+            class="form-control"
+            [(ngModel)]="citation" style="color: gray;"
+            >
+        </div>
+            
+            
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Décrivez nous votre travail</label>
+            <input
+            #DescriptionInput 
+            type="text" 
+            class="form-control"
+            [(ngModel)]="description" style="color: gray;"
+            >
+        </div>
+            
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Mot clé de votre travail</label>
+            <input 
+            #MotInput
+            type="text" 
+            class="form-control" style="color: gray;"
+            >
+        </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- <div class="card-container">
+    <div class="card" >
+        <div class="front">
+              <img src="./assets/111.PNG"  class="card-img-top"  >
+        <img src="./assets/nn.jpg"  class="card-img-cercle" >
+        <div class="card-body">
+          <h2 class="card-title">{{nom}} {{prenom}}</h2>
+          <h5 class="card-Job">{{job}}</h5>
+          <br>
+          <p class="card-text">{{citation}} </p>
+         
+         <hr>
+         
+         <div class="sm"></div>
+         <p><a href="#"><i class="fa fa-share"></i></a> Auto Rotation</p>
+        </div>
+        </div>
+        
+    </div>
+
+</div> -->
+
+<div class="card-container">
+    <div class="card">
+        <div class="front">
+            <div class="cover">
+                <img src="./assets/111.PNG"/>
+            </div>
+            <div class="user">
+                <img class="card-img-cercle" src="./assets/nn.jpg"/>
+            </div>
+            <div class="content">
+                <div class="main">
+                    <h5 class="name">{{nom}} {{prenom}}</h5>
+                    <p class="profession">{{job}}</p>
+
+                    <p class="text-center">{{citation}}</p>
+                </div>
+                <div class="footer">
+                    <div class="rating">
+                        <i class="fa fa-mail-forward"></i> Auto Rotation
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end front panel -->
+        <div class="back">
+            <div class="header">
+                <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+            </div>
+            <div class="content">
+                <div class="main">
+                    <h4 class="text-center">Job Description</h4>
+                    <p class="text-center">{{description}}</p>
+
+                    <div class="stats-container">
+                        <div class="stats">
+                            <h4>235</h4>
+                            <p>
+                                Followers
+                            </p>
+                        </div>
+                        <div class="stats">
+                            <h4>114</h4>
+                            <p>
+                                Following
+                            </p>
+                        </div>
+                        <div class="stats">
+                            <h4>35</h4>
+                            <p>
+                                Projects
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer">
+                <div class="social-links text-center">
+                    <a href="https://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                    <a href="https://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                    <a href="https://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                </div>
+            </div>
+        </div> <!-- end back panel -->
+    </div> <!-- end card -->
+</div> <!-- end card-container -->
+</div>
+  
+</div>
+
+
+
